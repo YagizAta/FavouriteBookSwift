@@ -13,6 +13,8 @@
 		84BA8336261250EB0000FBCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA8335261250EB0000FBCD /* Assets.xcassets */; };
 		84BA8339261250EB0000FBCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BA8338261250EB0000FBCD /* Preview Assets.xcassets */; };
 		84BA833C261250EB0000FBCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84BA833A261250EB0000FBCD /* LaunchScreen.storyboard */; };
+		84BA83452612511C0000FBCD /* FavouriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BA83442612511C0000FBCD /* FavouriteModel.swift */; };
+		84F1481F26125682007E272C /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F1481E26125682007E272C /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		84BA8338261250EB0000FBCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		84BA833B261250EB0000FBCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84BA833D261250EB0000FBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BA83442612511C0000FBCD /* FavouriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteModel.swift; sourceTree = "<group>"; };
+		84F1481E26125682007E272C /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				84BA833A261250EB0000FBCD /* LaunchScreen.storyboard */,
 				84BA833D261250EB0000FBCD /* Info.plist */,
 				84BA8337261250EB0000FBCD /* Preview Content */,
+				84BA83442612511C0000FBCD /* FavouriteModel.swift */,
+				84F1481E26125682007E272C /* DetailsView.swift */,
 			);
 			path = FavouriteBook;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				84BA8330261250EA0000FBCD /* AppDelegate.swift in Sources */,
+				84F1481F26125682007E272C /* DetailsView.swift in Sources */,
+				84BA83452612511C0000FBCD /* FavouriteModel.swift in Sources */,
 				84BA8332261250EA0000FBCD /* SceneDelegate.swift in Sources */,
 				84BA8334261250EA0000FBCD /* ContentView.swift in Sources */,
 			);
